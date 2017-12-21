@@ -1,5 +1,6 @@
 <manifest>
 <remote name="github" fetch="https://github.com/Juniper"/>
+<remote name="dporru" fetch="https://github.com/dporru"/>
 
 <default revision="refs/heads/master" remote="github"/>
 
@@ -28,7 +29,7 @@
 <project name="contrail-web-storage" remote="github"/>
 <project name="contrail-web-server-manager" remote="github"/>
 <project name="contrail-web-controller" remote="github"/>
-<project name="contrail-web-core" remote="github"/>
+<project name="contrail-web-core" remote="dporru"/>
 <project name="contrail-webui-third-party" remote="github" path="contrail-webui-third-party"/>
 <!-- Used by OpenContrail CI jobs -->
 <project name="contrail-fabric-utils" remote="github" path="third_party/fabric-utils" />
