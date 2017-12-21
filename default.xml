@@ -16,7 +16,7 @@
 <project name="contrail-analytics" remote="github" path="src/contrail-analytics"/>
 <project name="contrail-api-client" remote="github" path="src/contrail-api-client"/>
 <!-- Packages are split between contrail-packages and contrail-packaging -->
-<project name="contrail-packages" remote="github" path="tools/packages">
+<project name="contrail-packages" remote="dporru" path="tools/packages">
   <copyfile src="packages.make" dest="packages.make"/>
 </project>
 <project name="contrail-packaging" remote="github" path="tools/packaging"/>
